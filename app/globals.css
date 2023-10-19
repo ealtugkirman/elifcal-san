@@ -2,4 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn {
+  @apply rounded-md text-lg p-4;
+}
 
+.firstheader {
+  @apply text-mainblue text-6xl italic;
+}
+
+.secondheader {
+  @apply font-bold text-5xl;
+}
+
+.section {
+  @apply flex font-Libre mx-12 pt-20  h-screen justify-center items-center;
+}

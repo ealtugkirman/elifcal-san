@@ -25,7 +25,7 @@ const Header = () => {
     <header
       className={`${
         isActive ? "lg:top-0  shadow-2xl" : "lg:top-[0px]"
-      } py-6 lg:py-2 bg-blue-200 fixed top-0 w-full hover:bg-blue-300 transition-all z-20`}>
+      } py-6 lg:py-6 bg-blue-200 fixed top-0 w-full hover:bg-blue-300 transition-all z-20`}>
       <div className="container sticky top-0 mx-auto flex justify-between items-center">
         {/* logo */}
         <h1 className="text-2xl font-libre " >Av. Elif Nur ÇALIŞAN</h1>

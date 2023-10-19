@@ -10,7 +10,7 @@ const Dİff = () => {
           <Image src={diff} />
         </div>
         <div className="w-2/5 space-y-8 my-20  flex-row">
-          <h2 className="text-4xl  italic ">Size nasıl yardımcı olabiliriz</h2>
+          <h2 className="secondheader ">Size nasıl yardımcı olabiliriz</h2>
           <p>
             Ofisimiz, uzun yıllara dayanan zengin deneyimi ve uzman kadrosuyla,
             her zaman yanınızda olmaktan gurur duyar ve sizin ihtiyaçlarınıza

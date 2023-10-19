@@ -5,24 +5,24 @@ import avatar from "../../img/avatar.svg";
 
 const Header = () => {
   return (
-    <div className="flex font-Libre mx-12 pt-28 flex-col h-screen justify-center items-center ">
+    <div className="section flex-col">
       <div>
         <Image src={border} />
       </div>
       <div className="flex-row mx-12 my-12 flex">
         <div className="space-y-12">
-          <h1 className="text-6xl ml-12 text-mainblue  italic">
+          <h1 className="ml-12 firstheader">
             Av. Elif Nur Çalışan
           </h1>
-          <p className="mr-24 ml-12">
+          <p className="mr-24 text ml-12">
             Ara dönem danışmanlığı tüm sorunlarınızı kökünden çözmek için en
             etkli yoldur.Ara dönem danışmanlığı tüm sorunlarınızı kökünden
             çözmek için en etkli yoldur. Aile hukukunu anlamanızı kolaylaştırmak ve her davanın benzersiz
           olduğuna, her birinin özel desteğe ihtiyaç duyduğuna ve özenle ele
           alındığına inanmanızı sağlamak için çok çalışıyoruz.
           </p>
-          <button className="bg-mainblue ml-12 rounded-md text-lg mr-3 p-4">Yazılar</button>
-          <button className="border-mainblue border-2 text-lg rounded-md bg-white p-4">
+          <button className="bg-mainblue ml-12 btn mr-3">Yazılar</button>
+          <button className="border-mainblue border-2 btn bg-white ">
             Randevu Oluştur
           </button>
         </div>

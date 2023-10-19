@@ -12,7 +12,7 @@ const Work = () => {
   return (
     <div className="flex bg-gray-300 font-Libre px-12 pb-32 flex-col pt-24 justify-center items-center">
       <div className="flex-col text-center space-y-4">
-        <h1 className="font-bold text-5xl">Çalışma Alanlarımız</h1>
+        <h1 className="secondheader">Çalışma Alanlarımız</h1>
         <h3 className="italic text-2xl text-blue-500"> Aile Hukuku Hizmetlerimiz </h3>
       </div>
       <div className="flex flex-row space-x-24 mx-16 text-center mt-16">
