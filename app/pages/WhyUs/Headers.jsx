@@ -22,7 +22,7 @@ const Header = () => {
           alındığına inanmanızı sağlamak için çok çalışıyoruz.
           </p>
           <button className="bg-mainblue ml-12 btn mr-3">Yazılar</button>
-          <button className="border-mainblue border-2 btn bg-white ">
+          <button className="border-mainblue border-2 btn2 bg-white ">
             Randevu Oluştur
           </button>
         </div>

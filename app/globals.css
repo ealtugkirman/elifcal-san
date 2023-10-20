@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 .btn {
-  @apply rounded-md text-lg p-4;
+  @apply rounded-md text-white text-lg p-4;
+}
+
+.btn2 {
+  @apply rounded-md text-black text-lg p-4
 }
 
 .firstheader {
@@ -11,9 +15,18 @@
 }
 
 .secondheader {
-  @apply font-bold text-5xl;
+  @apply font-bold  text-5xl;
 }
 
 .section {
-  @apply flex font-Libre mx-12 pt-20  h-screen justify-center items-center;
+  @apply flex font-Libre mx-10 pt-20  h-screen justify-center items-center;
 }
+
+
+
+
+.map-container {
+  width: 100%;
+  height: 50vh;
+}
+
